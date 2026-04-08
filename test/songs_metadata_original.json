@@ -1,8 +1,8 @@
 [{
-  "SourceFile": "./tst/music/VIA Gra/Обмани но останься/Обмани, но останься.mp3",
+  "SourceFile": "./test music/VIA Gra/Обмани но останься/Обмани, но останься.mp3",
   "ExifToolVersion": 12.76,
   "FileName": "Обмани, но останься.mp3",
-  "Directory": "./tst/music/VIA Gra/Обмани но останься",
+  "Directory": "./test music/VIA Gra/Обмани но останься",
   "FileSize": "9.6 MB",
   "FileModifyDate": "2026:04:06 11:31:08+00:00",
   "FileAccessDate": "2026:04:08 15:04:13+00:00",
@@ -36,10 +36,10 @@
   "Duration": "0:03:57 (approx)"
 },
 {
-  "SourceFile": "./tst/music/VIA Gra/Не оставляй меня любимый/Не оставляй меня любимый.mp3",
+  "SourceFile": "./test music/VIA Gra/Не оставляй меня любимый/Не оставляй меня любимый.mp3",
   "ExifToolVersion": 12.76,
   "FileName": "Не оставляй меня любимый.mp3",
-  "Directory": "./tst/music/VIA Gra/Не оставляй меня любимый",
+  "Directory": "./test music/VIA Gra/Не оставляй меня любимый",
   "FileSize": "8.6 MB",
   "FileModifyDate": "2026:04:06 11:31:08+00:00",
   "FileAccessDate": "2026:04:08 15:04:13+00:00",
@@ -73,10 +73,10 @@
   "Duration": "0:03:32 (approx)"
 },
 {
-  "SourceFile": "./tst/music/EMINJONY/Камин/Камин.mp3",
+  "SourceFile": "./test music/EMINJONY/Камин/Камин.mp3",
   "ExifToolVersion": 12.76,
   "FileName": "Камин.mp3",
-  "Directory": "./tst/music/EMINJONY/Камин",
+  "Directory": "./test music/EMINJONY/Камин",
   "FileSize": "7.6 MB",
   "FileModifyDate": "2026:04:06 11:31:08+00:00",
   "FileAccessDate": "2026:04:08 15:04:13+00:00",
@@ -110,10 +110,10 @@
   "Duration": "0:03:08 (approx)"
 },
 {
-  "SourceFile": "./tst/music/Splean/Новые люди/Новые люди.mp3",
+  "SourceFile": "./test music/Splean/Новые люди/Новые люди.mp3",
   "ExifToolVersion": 12.76,
   "FileName": "Новые люди.mp3",
-  "Directory": "./tst/music/Splean/Новые люди",
+  "Directory": "./test music/Splean/Новые люди",
   "FileSize": "9.3 MB",
   "FileModifyDate": "2026:04:06 11:31:08+00:00",
   "FileAccessDate": "2026:04:08 15:04:13+00:00",
@@ -147,10 +147,10 @@
   "Duration": "0:03:45 (approx)"
 },
 {
-  "SourceFile": "./tst/music/Total/Неважно/Неважно.mp3",
+  "SourceFile": "./test music/Total/Неважно/Неважно.mp3",
   "ExifToolVersion": 12.76,
   "FileName": "Неважно.mp3",
-  "Directory": "./tst/music/Total/Неважно",
+  "Directory": "./test music/Total/Неважно",
   "FileSize": "8.6 MB",
   "FileModifyDate": "2026:04:06 11:31:08+00:00",
   "FileAccessDate": "2026:04:08 15:04:13+00:00",
@@ -184,10 +184,10 @@
   "Duration": "0:03:29 (approx)"
 },
 {
-  "SourceFile": "./tst/music/Green Grey/Эмигрант/Эмигрант.mp3",
+  "SourceFile": "./test music/Green Grey/Эмигрант/Эмигрант.mp3",
   "ExifToolVersion": 12.76,
   "FileName": "Эмигрант.mp3",
-  "Directory": "./tst/music/Green Grey/Эмигрант",
+  "Directory": "./test music/Green Grey/Эмигрант",
   "FileSize": "11 MB",
   "FileModifyDate": "2026:04:06 11:31:08+00:00",
   "FileAccessDate": "2026:04:08 15:04:13+00:00",
@@ -221,10 +221,10 @@
   "Duration": "0:04:44 (approx)"
 },
 {
-  "SourceFile": "./tst/music/Yulia Savicheva/Прости за любовь/Прости за любовь.mp3",
+  "SourceFile": "./test music/Yulia Savicheva/Прости за любовь/Прости за любовь.mp3",
   "ExifToolVersion": 12.76,
   "FileName": "Прости за любовь.mp3",
-  "Directory": "./tst/music/Yulia Savicheva/Прости за любовь",
+  "Directory": "./test music/Yulia Savicheva/Прости за любовь",
   "FileSize": "10 MB",
   "FileModifyDate": "2026:04:06 11:31:08+00:00",
   "FileAccessDate": "2026:04:08 15:04:13+00:00",
@@ -258,10 +258,10 @@
   "Duration": "0:04:09 (approx)"
 },
 {
-  "SourceFile": "./tst/music/Три дня дождяЛали/Смыслы/Смыслы.mp3",
+  "SourceFile": "./test music/Три дня дождяЛали/Смыслы/Смыслы.mp3",
   "ExifToolVersion": 12.76,
   "FileName": "Смыслы.mp3",
-  "Directory": "./tst/music/Три дня дождяЛали/Смыслы",
+  "Directory": "./test music/Три дня дождяЛали/Смыслы",
   "FileSize": "6.5 MB",
   "FileModifyDate": "2026:04:06 11:31:08+00:00",
   "FileAccessDate": "2026:04:08 15:43:51+00:00",
@@ -295,10 +295,10 @@
   "Duration": "0:02:38 (approx)"
 },
 {
-  "SourceFile": "./tst/music/Merab Amzoevi/Если б не было тебя/Если б не было тебя.mp3",
+  "SourceFile": "./test music/Merab Amzoevi/Если б не было тебя/Если б не было тебя.mp3",
   "ExifToolVersion": 12.76,
   "FileName": "Если б не было тебя.mp3",
-  "Directory": "./tst/music/Merab Amzoevi/Если б не было тебя",
+  "Directory": "./test music/Merab Amzoevi/Если б не было тебя",
   "FileSize": "5.2 MB",
   "FileModifyDate": "2026:04:06 11:31:08+00:00",
   "FileAccessDate": "2026:04:08 15:04:13+00:00",
@@ -332,10 +332,10 @@
   "Duration": "0:02:08 (approx)"
 },
 {
-  "SourceFile": "./tst/music/Merab Amzoevi/Без тебя/Без тебя.mp3",
+  "SourceFile": "./test music/Merab Amzoevi/Без тебя/Без тебя.mp3",
   "ExifToolVersion": 12.76,
   "FileName": "Без тебя.mp3",
-  "Directory": "./tst/music/Merab Amzoevi/Без тебя",
+  "Directory": "./test music/Merab Amzoevi/Без тебя",
   "FileSize": "7.8 MB",
   "FileModifyDate": "2026:04:06 11:31:08+00:00",
   "FileAccessDate": "2026:04:08 15:04:13+00:00",
@@ -369,10 +369,10 @@
   "Duration": "0:03:13 (approx)"
 },
 {
-  "SourceFile": "./tst/music/Merab Amzoevi/Ветром унесёт/Ветром унесёт.mp3",
+  "SourceFile": "./test music/Merab Amzoevi/Ветром унесёт/Ветром унесёт.mp3",
   "ExifToolVersion": 12.76,
   "FileName": "Ветром унесёт.mp3",
-  "Directory": "./tst/music/Merab Amzoevi/Ветром унесёт",
+  "Directory": "./test music/Merab Amzoevi/Ветром унесёт",
   "FileSize": "6.4 MB",
   "FileModifyDate": "2026:04:06 11:31:08+00:00",
   "FileAccessDate": "2026:04:08 15:04:13+00:00",
@@ -406,10 +406,10 @@
   "Duration": "0:02:38 (approx)"
 },
 {
-  "SourceFile": "./tst/music/Sevara Nazarkhan/Там нет меня/Там нет меня.mp3",
+  "SourceFile": "./test music/Sevara Nazarkhan/Там нет меня/Там нет меня.mp3",
   "ExifToolVersion": 12.76,
   "FileName": "Там нет меня.mp3",
-  "Directory": "./tst/music/Sevara Nazarkhan/Там нет меня",
+  "Directory": "./test music/Sevara Nazarkhan/Там нет меня",
   "FileSize": "8.6 MB",
   "FileModifyDate": "2026:04:06 11:31:08+00:00",
   "FileAccessDate": "2026:04:08 15:04:13+00:00",
@@ -443,10 +443,10 @@
   "Duration": "0:03:30 (approx)"
 },
 {
-  "SourceFile": "./tst/music/Мария Зайцева/Если бы (Lounge Version)/Если бы (Lounge Version).mp3",
+  "SourceFile": "./test music/Мария Зайцева/Если бы (Lounge Version)/Если бы (Lounge Version).mp3",
   "ExifToolVersion": 12.76,
   "FileName": "Если бы (Lounge Version).mp3",
-  "Directory": "./tst/music/Мария Зайцева/Если бы (Lounge Version)",
+  "Directory": "./test music/Мария Зайцева/Если бы (Lounge Version)",
   "FileSize": "8.0 MB",
   "FileModifyDate": "2026:04:06 11:31:08+00:00",
   "FileAccessDate": "2026:04:08 15:04:13+00:00",
@@ -480,10 +480,10 @@
   "Duration": "0:03:18 (approx)"
 },
 {
-  "SourceFile": "./tst/music/Valery Meladze/Не тревожь мне душу скрипка/Не тревожь мне душу, скрипка.mp3",
+  "SourceFile": "./test music/Valery Meladze/Не тревожь мне душу скрипка/Не тревожь мне душу, скрипка.mp3",
   "ExifToolVersion": 12.76,
   "FileName": "Не тревожь мне душу, скрипка.mp3",
-  "Directory": "./tst/music/Valery Meladze/Не тревожь мне душу скрипка",
+  "Directory": "./test music/Valery Meladze/Не тревожь мне душу скрипка",
   "FileSize": "10 MB",
   "FileModifyDate": "2026:04:06 11:31:08+00:00",
   "FileAccessDate": "2026:04:08 15:04:13+00:00",
@@ -517,10 +517,10 @@
   "Duration": "0:04:17 (approx)"
 },
 {
-  "SourceFile": "./tst/music/Женя Трофимов/Самолеты/Самолеты.mp3",
+  "SourceFile": "./test music/Женя Трофимов/Самолеты/Самолеты.mp3",
   "ExifToolVersion": 12.76,
   "FileName": "Самолеты.mp3",
-  "Directory": "./tst/music/Женя Трофимов/Самолеты",
+  "Directory": "./test music/Женя Трофимов/Самолеты",
   "FileSize": "7.0 MB",
   "FileModifyDate": "2026:04:06 11:31:08+00:00",
   "FileAccessDate": "2026:04:08 15:04:13+00:00",
@@ -554,10 +554,10 @@
   "Duration": "0:02:54 (approx)"
 },
 {
-  "SourceFile": "./tst/music/Unsorted/Allysia - Otkroj moe serdce .mp3",
+  "SourceFile": "./test music/Unsorted/Allysia - Otkroj moe serdce .mp3",
   "ExifToolVersion": 12.76,
   "FileName": "Allysia - Otkroj moe serdce .mp3",
-  "Directory": "./tst/music/Unsorted",
+  "Directory": "./test music/Unsorted",
   "FileSize": "2.6 MB",
   "FileModifyDate": "2014:02:14 00:08:22+00:00",
   "FileAccessDate": "2026:04:08 15:04:13+00:00",
@@ -598,10 +598,10 @@
   "Duration": "0:03:08 (approx)"
 },
 {
-  "SourceFile": "./tst/music/Unsorted/Arina i Razmer Project - Lyudi-odinochki(Original Mix).mp3",
+  "SourceFile": "./test music/Unsorted/Arina i Razmer Project - Lyudi-odinochki(Original Mix).mp3",
   "ExifToolVersion": 12.76,
   "FileName": "Arina i Razmer Project - Lyudi-odinochki(Original Mix).mp3",
-  "Directory": "./tst/music/Unsorted",
+  "Directory": "./test music/Unsorted",
   "FileSize": "5.9 MB",
   "FileModifyDate": "2014:02:14 00:08:22+00:00",
   "FileAccessDate": "2026:04:08 15:04:13+00:00",
@@ -633,10 +633,10 @@
   "Duration": "0:04:05 (approx)"
 },
 {
-  "SourceFile": "./tst/music/Оскар/Между Мной/Между Мной.mp3",
+  "SourceFile": "./test music/Оскар/Между Мной/Между Мной.mp3",
   "ExifToolVersion": 12.76,
   "FileName": "Между Мной.mp3",
-  "Directory": "./tst/music/Оскар/Между Мной",
+  "Directory": "./test music/Оскар/Между Мной",
   "FileSize": "11 MB",
   "FileModifyDate": "2026:04:06 11:31:08+00:00",
   "FileAccessDate": "2026:04:08 15:43:50+00:00",
@@ -670,10 +670,10 @@
   "Duration": "0:04:40 (approx)"
 },
 {
-  "SourceFile": "./tst/music/SEREBRO/Дыши/Дыши.mp3",
+  "SourceFile": "./test music/SEREBRO/Дыши/Дыши.mp3",
   "ExifToolVersion": 12.76,
   "FileName": "Дыши.mp3",
-  "Directory": "./tst/music/SEREBRO/Дыши",
+  "Directory": "./test music/SEREBRO/Дыши",
   "FileSize": "11 MB",
   "FileModifyDate": "2026:04:06 11:31:08+00:00",
   "FileAccessDate": "2026:04:08 15:04:13+00:00",
@@ -707,10 +707,10 @@
   "Duration": "0:04:29 (approx)"
 },
 {
-  "SourceFile": "./tst/music/ZvonkiyRem Digga/Из окон/Из окон.mp3",
+  "SourceFile": "./test music/ZvonkiyRem Digga/Из окон/Из окон.mp3",
   "ExifToolVersion": 12.76,
   "FileName": "Из окон.mp3",
-  "Directory": "./tst/music/ZvonkiyRem Digga/Из окон",
+  "Directory": "./test music/ZvonkiyRem Digga/Из окон",
   "FileSize": "9.0 MB",
   "FileModifyDate": "2026:04:06 11:31:08+00:00",
   "FileAccessDate": "2026:04:08 15:04:13+00:00",
@@ -744,10 +744,10 @@
   "Duration": "0:03:40 (approx)"
 },
 {
-  "SourceFile": "./tst/music/Moya Mishel/Из другого города/Из другого города.mp3",
+  "SourceFile": "./test music/Moya Mishel/Из другого города/Из другого города.mp3",
   "ExifToolVersion": 12.76,
   "FileName": "Из другого города.mp3",
-  "Directory": "./tst/music/Moya Mishel/Из другого города",
+  "Directory": "./test music/Moya Mishel/Из другого города",
   "FileSize": "8.2 MB",
   "FileModifyDate": "2026:04:06 11:31:08+00:00",
   "FileAccessDate": "2026:04:08 15:04:13+00:00",
@@ -781,10 +781,10 @@
   "Duration": "0:03:22 (approx)"
 },
 {
-  "SourceFile": "./tst/music/Korni/25-й этаж/25-й этаж.mp3",
+  "SourceFile": "./test music/Korni/25-й этаж/25-й этаж.mp3",
   "ExifToolVersion": 12.76,
   "FileName": "25-й этаж.mp3",
-  "Directory": "./tst/music/Korni/25-й этаж",
+  "Directory": "./test music/Korni/25-й этаж",
   "FileSize": "11 MB",
   "FileModifyDate": "2026:04:06 11:31:08+00:00",
   "FileAccessDate": "2026:04:08 15:04:13+00:00",
@@ -818,10 +818,10 @@
   "Duration": "0:04:34 (approx)"
 },
 {
-  "SourceFile": "./tst/music/JONY/Лечу/Лечу.mp3",
+  "SourceFile": "./test music/JONY/Лечу/Лечу.mp3",
   "ExifToolVersion": 12.76,
   "FileName": "Лечу.mp3",
-  "Directory": "./tst/music/JONY/Лечу",
+  "Directory": "./test music/JONY/Лечу",
   "FileSize": "6.9 MB",
   "FileModifyDate": "2026:04:06 11:31:08+00:00",
   "FileAccessDate": "2026:04:08 15:04:13+00:00",
@@ -855,10 +855,10 @@
   "Duration": "0:02:51 (approx)"
 },
 {
-  "SourceFile": "./tst/music/Антон Токарев/Седьмой лепесток/Седьмой лепесток.mp3",
+  "SourceFile": "./test music/Антон Токарев/Седьмой лепесток/Седьмой лепесток.mp3",
   "ExifToolVersion": 12.76,
   "FileName": "Седьмой лепесток.mp3",
-  "Directory": "./tst/music/Антон Токарев/Седьмой лепесток",
+  "Directory": "./test music/Антон Токарев/Седьмой лепесток",
   "FileSize": "8.1 MB",
   "FileModifyDate": "2026:04:06 11:31:08+00:00",
   "FileAccessDate": "2026:04:08 15:04:13+00:00",
@@ -892,10 +892,10 @@
   "Duration": "0:03:20 (approx)"
 },
 {
-  "SourceFile": "./tst/music/Антон Токарев/По звёздам/По звёздам.mp3",
+  "SourceFile": "./test music/Антон Токарев/По звёздам/По звёздам.mp3",
   "ExifToolVersion": 12.76,
   "FileName": "По звёздам.mp3",
-  "Directory": "./tst/music/Антон Токарев/По звёздам",
+  "Directory": "./test music/Антон Токарев/По звёздам",
   "FileSize": "7.6 MB",
   "FileModifyDate": "2026:04:06 11:31:08+00:00",
   "FileAccessDate": "2026:04:08 15:04:13+00:00",
@@ -929,10 +929,10 @@
   "Duration": "0:03:07 (approx)"
 },
 {
-  "SourceFile": "./tst/music/KravzGio Pika/Где прошла ты/Где прошла ты.mp3",
+  "SourceFile": "./test music/KravzGio Pika/Где прошла ты/Где прошла ты.mp3",
   "ExifToolVersion": 12.76,
   "FileName": "Где прошла ты.mp3",
-  "Directory": "./tst/music/KravzGio Pika/Где прошла ты",
+  "Directory": "./test music/KravzGio Pika/Где прошла ты",
   "FileSize": "6.9 MB",
   "FileModifyDate": "2026:04:06 11:31:08+00:00",
   "FileAccessDate": "2026:04:08 15:04:13+00:00",
@@ -966,10 +966,10 @@
   "Duration": "0:02:48 (approx)"
 },
 {
-  "SourceFile": "./tst/music/Тима Акимов/Понарошку/Понарошку.mp3",
+  "SourceFile": "./test music/Тима Акимов/Понарошку/Понарошку.mp3",
   "ExifToolVersion": 12.76,
   "FileName": "Понарошку.mp3",
-  "Directory": "./tst/music/Тима Акимов/Понарошку",
+  "Directory": "./test music/Тима Акимов/Понарошку",
   "FileSize": "7.7 MB",
   "FileModifyDate": "2026:04:06 11:31:08+00:00",
   "FileAccessDate": "2026:04:08 15:43:50+00:00",
@@ -1003,10 +1003,10 @@
   "Duration": "0:03:11 (approx)"
 },
 {
-  "SourceFile": "./tst/music/SOCRAT/ЛУНА/ЛУНА.mp3",
+  "SourceFile": "./test music/SOCRAT/ЛУНА/ЛУНА.mp3",
   "ExifToolVersion": 12.76,
   "FileName": "ЛУНА.mp3",
-  "Directory": "./tst/music/SOCRAT/ЛУНА",
+  "Directory": "./test music/SOCRAT/ЛУНА",
   "FileSize": "7.9 MB",
   "FileModifyDate": "2026:04:06 11:31:08+00:00",
   "FileAccessDate": "2026:04:08 15:04:13+00:00",
@@ -1040,10 +1040,10 @@
   "Duration": "0:03:17 (approx)"
 },
 {
-  "SourceFile": "./tst/music/Tokio/Я тебя люблю/Я тебя люблю.mp3",
+  "SourceFile": "./test music/Tokio/Я тебя люблю/Я тебя люблю.mp3",
   "ExifToolVersion": 12.76,
   "FileName": "Я тебя люблю.mp3",
-  "Directory": "./tst/music/Tokio/Я тебя люблю",
+  "Directory": "./test music/Tokio/Я тебя люблю",
   "FileSize": "12 MB",
   "FileModifyDate": "2026:04:06 11:31:08+00:00",
   "FileAccessDate": "2026:04:08 15:04:13+00:00",
@@ -1077,10 +1077,10 @@
   "Duration": "0:04:53 (approx)"
 },
 {
-  "SourceFile": "./tst/music/Даша НЕКРИЧИ/В жизни так бывает/В жизни так бывает.mp3",
+  "SourceFile": "./test music/Даша НЕКРИЧИ/В жизни так бывает/В жизни так бывает.mp3",
   "ExifToolVersion": 12.76,
   "FileName": "В жизни так бывает.mp3",
-  "Directory": "./tst/music/Даша НЕКРИЧИ/В жизни так бывает",
+  "Directory": "./test music/Даша НЕКРИЧИ/В жизни так бывает",
   "FileSize": "8.3 MB",
   "FileModifyDate": "2026:04:06 11:31:08+00:00",
   "FileAccessDate": "2026:04:08 15:04:13+00:00",
@@ -1114,10 +1114,10 @@
   "Duration": "0:03:24 (approx)"
 },
 {
-  "SourceFile": "./tst/music/Maria Ermakova/Лучшее в тебе/Лучшее в тебе.mp3",
+  "SourceFile": "./test music/Maria Ermakova/Лучшее в тебе/Лучшее в тебе.mp3",
   "ExifToolVersion": 12.76,
   "FileName": "Лучшее в тебе.mp3",
-  "Directory": "./tst/music/Maria Ermakova/Лучшее в тебе",
+  "Directory": "./test music/Maria Ermakova/Лучшее в тебе",
   "FileSize": "6.0 MB",
   "FileModifyDate": "2026:04:06 11:31:08+00:00",
   "FileAccessDate": "2026:04:08 15:04:13+00:00",
@@ -1151,10 +1151,10 @@
   "Duration": "0:02:27 (approx)"
 },
 {
-  "SourceFile": "./tst/music/JONYHAMMALI/Наверно ты меня не помнишь/Наверно, ты меня не помнишь.mp3",
+  "SourceFile": "./test music/JONYHAMMALI/Наверно ты меня не помнишь/Наверно, ты меня не помнишь.mp3",
   "ExifToolVersion": 12.76,
   "FileName": "Наверно, ты меня не помнишь.mp3",
-  "Directory": "./tst/music/JONYHAMMALI/Наверно ты меня не помнишь",
+  "Directory": "./test music/JONYHAMMALI/Наверно ты меня не помнишь",
   "FileSize": "7.7 MB",
   "FileModifyDate": "2026:04:06 11:31:08+00:00",
   "FileAccessDate": "2026:04:08 15:04:13+00:00",
@@ -1188,10 +1188,10 @@
   "Duration": "0:03:10 (approx)"
 },
 {
-  "SourceFile": "./tst/music/Свят/Не отпускай/Не отпускай.mp3",
+  "SourceFile": "./test music/Свят/Не отпускай/Не отпускай.mp3",
   "ExifToolVersion": 12.76,
   "FileName": "Не отпускай.mp3",
-  "Directory": "./tst/music/Свят/Не отпускай",
+  "Directory": "./test music/Свят/Не отпускай",
   "FileSize": "5.8 MB",
   "FileModifyDate": "2026:04:06 11:31:08+00:00",
   "FileAccessDate": "2026:04:08 15:43:50+00:00",
@@ -1225,10 +1225,10 @@
   "Duration": "0:02:23 (approx)"
 },
 {
-  "SourceFile": "./tst/music/The Brookln/Свободна/Свободна.mp3",
+  "SourceFile": "./test music/The Brookln/Свободна/Свободна.mp3",
   "ExifToolVersion": 12.76,
   "FileName": "Свободна.mp3",
-  "Directory": "./tst/music/The Brookln/Свободна",
+  "Directory": "./test music/The Brookln/Свободна",
   "FileSize": "8.3 MB",
   "FileModifyDate": "2026:04:06 11:31:08+00:00",
   "FileAccessDate": "2026:04:08 15:04:13+00:00",
@@ -1262,10 +1262,10 @@
   "Duration": "0:03:26 (approx)"
 },
 {
-  "SourceFile": "./tst/music/Hi-Fi/Глупые люди/Глупые люди.mp3",
+  "SourceFile": "./test music/Hi-Fi/Глупые люди/Глупые люди.mp3",
   "ExifToolVersion": 12.76,
   "FileName": "Глупые люди.mp3",
-  "Directory": "./tst/music/Hi-Fi/Глупые люди",
+  "Directory": "./test music/Hi-Fi/Глупые люди",
   "FileSize": "9.1 MB",
   "FileModifyDate": "2026:04:06 11:31:08+00:00",
   "FileAccessDate": "2026:04:08 15:04:13+00:00",
@@ -1299,10 +1299,10 @@
   "Duration": "0:03:43 (approx)"
 },
 {
-  "SourceFile": "./tst/music/Basta/Я найду тебя через века/Я найду тебя через века.mp3",
+  "SourceFile": "./test music/Basta/Я найду тебя через века/Я найду тебя через века.mp3",
   "ExifToolVersion": 12.76,
   "FileName": "Я найду тебя через века.mp3",
-  "Directory": "./tst/music/Basta/Я найду тебя через века",
+  "Directory": "./test music/Basta/Я найду тебя через века",
   "FileSize": "8.4 MB",
   "FileModifyDate": "2026:04:06 11:31:08+00:00",
   "FileAccessDate": "2026:04:08 15:04:13+00:00",
@@ -1336,10 +1336,10 @@
   "Duration": "0:03:28 (approx)"
 },
 {
-  "SourceFile": "./tst/music/Burito/Мама (Acoustic Version)/Мама (Acoustic Version).mp3",
+  "SourceFile": "./test music/Burito/Мама (Acoustic Version)/Мама (Acoustic Version).mp3",
   "ExifToolVersion": 12.76,
   "FileName": "Мама (Acoustic Version).mp3",
-  "Directory": "./tst/music/Burito/Мама (Acoustic Version)",
+  "Directory": "./test music/Burito/Мама (Acoustic Version)",
   "FileSize": "7.9 MB",
   "FileModifyDate": "2026:04:06 11:31:08+00:00",
   "FileAccessDate": "2026:04:08 15:04:13+00:00",
@@ -1373,10 +1373,10 @@
   "Duration": "0:03:17 (approx)"
 },
 {
-  "SourceFile": "./tst/music/MIRAVI/Вселенная/Вселенная.mp3",
+  "SourceFile": "./test music/MIRAVI/Вселенная/Вселенная.mp3",
   "ExifToolVersion": 12.76,
   "FileName": "Вселенная.mp3",
-  "Directory": "./tst/music/MIRAVI/Вселенная",
+  "Directory": "./test music/MIRAVI/Вселенная",
   "FileSize": "6.7 MB",
   "FileModifyDate": "2026:04:06 11:31:08+00:00",
   "FileAccessDate": "2026:04:08 15:04:13+00:00",
@@ -1410,10 +1410,10 @@
   "Duration": "0:02:46 (approx)"
 },
 {
-  "SourceFile": "./tst/music/Maxim Fadeev/Танцы на стёклах/Танцы на стёклах.mp3",
+  "SourceFile": "./test music/Maxim Fadeev/Танцы на стёклах/Танцы на стёклах.mp3",
   "ExifToolVersion": 12.76,
   "FileName": "Танцы на стёклах.mp3",
-  "Directory": "./tst/music/Maxim Fadeev/Танцы на стёклах",
+  "Directory": "./test music/Maxim Fadeev/Танцы на стёклах",
   "FileSize": "11 MB",
   "FileModifyDate": "2026:04:06 11:31:08+00:00",
   "FileAccessDate": "2026:04:08 15:04:13+00:00",
@@ -1447,10 +1447,10 @@
   "Duration": "0:04:33 (approx)"
 },
 {
-  "SourceFile": "./tst/music/Maxim Fadeev/Тихо несёт вода/Тихо несёт вода.mp3",
+  "SourceFile": "./test music/Maxim Fadeev/Тихо несёт вода/Тихо несёт вода.mp3",
   "ExifToolVersion": 12.76,
   "FileName": "Тихо несёт вода.mp3",
-  "Directory": "./tst/music/Maxim Fadeev/Тихо несёт вода",
+  "Directory": "./test music/Maxim Fadeev/Тихо несёт вода",
   "FileSize": "12 MB",
   "FileModifyDate": "2026:04:06 11:31:08+00:00",
   "FileAccessDate": "2026:04:08 15:04:13+00:00",
@@ -1484,10 +1484,10 @@
   "Duration": "0:04:52 (approx)"
 },
 {
-  "SourceFile": "./tst/music/Maxim Fadeev/Стану ли я счастливей/Стану ли я счастливей.mp3",
+  "SourceFile": "./test music/Maxim Fadeev/Стану ли я счастливей/Стану ли я счастливей.mp3",
   "ExifToolVersion": 12.76,
   "FileName": "Стану ли я счастливей.mp3",
-  "Directory": "./tst/music/Maxim Fadeev/Стану ли я счастливей",
+  "Directory": "./test music/Maxim Fadeev/Стану ли я счастливей",
   "FileSize": "9.3 MB",
   "FileModifyDate": "2026:04:06 11:31:08+00:00",
   "FileAccessDate": "2026:04:08 15:04:13+00:00",
@@ -1521,10 +1521,10 @@
   "Duration": "0:03:50 (approx)"
 },
 {
-  "SourceFile": "./tst/music/Maxim Fadeev/Беги по небу/Беги по небу.mp3",
+  "SourceFile": "./test music/Maxim Fadeev/Беги по небу/Беги по небу.mp3",
   "ExifToolVersion": 12.76,
   "FileName": "Беги по небу.mp3",
-  "Directory": "./tst/music/Maxim Fadeev/Беги по небу",
+  "Directory": "./test music/Maxim Fadeev/Беги по небу",
   "FileSize": "12 MB",
   "FileModifyDate": "2026:04:06 11:31:08+00:00",
   "FileAccessDate": "2026:04:08 15:04:13+00:00",
@@ -1558,10 +1558,10 @@
   "Duration": "0:04:47 (approx)"
 },
 {
-  "SourceFile": "./tst/music/NANSI & SIDOROV/Бросить курить 2.0/Бросить курить 2.0.mp3",
+  "SourceFile": "./test music/NANSI & SIDOROV/Бросить курить 2.0/Бросить курить 2.0.mp3",
   "ExifToolVersion": 12.76,
   "FileName": "Бросить курить 2.0.mp3",
-  "Directory": "./tst/music/NANSI & SIDOROV/Бросить курить 2.0",
+  "Directory": "./test music/NANSI & SIDOROV/Бросить курить 2.0",
   "FileSize": "8.4 MB",
   "FileModifyDate": "2026:04:06 11:31:08+00:00",
   "FileAccessDate": "2026:04:08 15:04:13+00:00",
@@ -1595,10 +1595,10 @@
   "Duration": "0:03:27 (approx)"
 },
 {
-  "SourceFile": "./tst/music/REFLEX/Люблю/Люблю.mp3",
+  "SourceFile": "./test music/REFLEX/Люблю/Люблю.mp3",
   "ExifToolVersion": 12.76,
   "FileName": "Люблю.mp3",
-  "Directory": "./tst/music/REFLEX/Люблю",
+  "Directory": "./test music/REFLEX/Люблю",
   "FileSize": "8.1 MB",
   "FileModifyDate": "2026:04:06 11:31:08+00:00",
   "FileAccessDate": "2026:04:08 15:04:13+00:00",
@@ -1632,10 +1632,10 @@
   "Duration": "0:03:19 (approx)"
 },
 {
-  "SourceFile": "./tst/music/NAVAIMONA/Есенин/Есенин.mp3",
+  "SourceFile": "./test music/NAVAIMONA/Есенин/Есенин.mp3",
   "ExifToolVersion": 12.76,
   "FileName": "Есенин.mp3",
-  "Directory": "./tst/music/NAVAIMONA/Есенин",
+  "Directory": "./test music/NAVAIMONA/Есенин",
   "FileSize": "7.0 MB",
   "FileModifyDate": "2026:04:06 11:31:08+00:00",
   "FileAccessDate": "2026:04:08 15:04:13+00:00",
@@ -1669,10 +1669,10 @@
   "Duration": "0:02:51 (approx)"
 },
 {
-  "SourceFile": "./tst/music/ANEYA/Сплетение/Сплетение.mp3",
+  "SourceFile": "./test music/ANEYA/Сплетение/Сплетение.mp3",
   "ExifToolVersion": 12.76,
   "FileName": "Сплетение.mp3",
-  "Directory": "./tst/music/ANEYA/Сплетение",
+  "Directory": "./test music/ANEYA/Сплетение",
   "FileSize": "11 MB",
   "FileModifyDate": "2026:04:06 11:31:08+00:00",
   "FileAccessDate": "2026:04:08 15:04:13+00:00",
@@ -1706,10 +1706,10 @@
   "Duration": "0:04:24 (approx)"
 },
 {
-  "SourceFile": "./tst/music/ANEYA/Твой ветер и моя тишина/Твой ветер и моя тишина.mp3",
+  "SourceFile": "./test music/ANEYA/Твой ветер и моя тишина/Твой ветер и моя тишина.mp3",
   "ExifToolVersion": 12.76,
   "FileName": "Твой ветер и моя тишина.mp3",
-  "Directory": "./tst/music/ANEYA/Твой ветер и моя тишина",
+  "Directory": "./test music/ANEYA/Твой ветер и моя тишина",
   "FileSize": "11 MB",
   "FileModifyDate": "2026:04:06 11:31:08+00:00",
   "FileAccessDate": "2026:04:08 15:04:13+00:00",
@@ -1743,10 +1743,10 @@
   "Duration": "0:04:20 (approx)"
 },
 {
-  "SourceFile": "./tst/music/ANEYA/Я не упаду/Я не упаду.mp3",
+  "SourceFile": "./test music/ANEYA/Я не упаду/Я не упаду.mp3",
   "ExifToolVersion": 12.76,
   "FileName": "Я не упаду.mp3",
-  "Directory": "./tst/music/ANEYA/Я не упаду",
+  "Directory": "./test music/ANEYA/Я не упаду",
   "FileSize": "10 MB",
   "FileModifyDate": "2026:04:06 11:31:08+00:00",
   "FileAccessDate": "2026:04:08 15:04:13+00:00",
@@ -1780,10 +1780,10 @@
   "Duration": "0:04:12 (approx)"
 },
 {
-  "SourceFile": "./tst/music/ANEYA/Пролетят года/Пролетят года.mp3",
+  "SourceFile": "./test music/ANEYA/Пролетят года/Пролетят года.mp3",
   "ExifToolVersion": 12.76,
   "FileName": "Пролетят года.mp3",
-  "Directory": "./tst/music/ANEYA/Пролетят года",
+  "Directory": "./test music/ANEYA/Пролетят года",
   "FileSize": "10 MB",
   "FileModifyDate": "2026:04:06 11:31:08+00:00",
   "FileAccessDate": "2026:04:08 15:04:13+00:00",
@@ -1817,10 +1817,10 @@
   "Duration": "0:04:15 (approx)"
 },
 {
-  "SourceFile": "./tst/music/ANEYA/Между мной и тобой/Между мной и тобой.mp3",
+  "SourceFile": "./test music/ANEYA/Между мной и тобой/Между мной и тобой.mp3",
   "ExifToolVersion": 12.76,
   "FileName": "Между мной и тобой.mp3",
-  "Directory": "./tst/music/ANEYA/Между мной и тобой",
+  "Directory": "./test music/ANEYA/Между мной и тобой",
   "FileSize": "9.9 MB",
   "FileModifyDate": "2026:04:06 11:31:08+00:00",
   "FileAccessDate": "2026:04:08 15:04:13+00:00",
@@ -1854,10 +1854,10 @@
   "Duration": "0:04:04 (approx)"
 },
 {
-  "SourceFile": "./tst/music/ANEYA/Ты мой абсолют/Ты мой абсолют.mp3",
+  "SourceFile": "./test music/ANEYA/Ты мой абсолют/Ты мой абсолют.mp3",
   "ExifToolVersion": 12.76,
   "FileName": "Ты мой абсолют.mp3",
-  "Directory": "./tst/music/ANEYA/Ты мой абсолют",
+  "Directory": "./test music/ANEYA/Ты мой абсолют",
   "FileSize": "11 MB",
   "FileModifyDate": "2026:04:06 11:31:08+00:00",
   "FileAccessDate": "2026:04:08 15:04:13+00:00",
@@ -1891,10 +1891,10 @@
   "Duration": "0:04:44 (approx)"
 },
 {
-  "SourceFile": "./tst/music/Алексей Горшенев/Дорогая/Дорогая.mp3",
+  "SourceFile": "./test music/Алексей Горшенев/Дорогая/Дорогая.mp3",
   "ExifToolVersion": 12.76,
   "FileName": "Дорогая.mp3",
-  "Directory": "./tst/music/Алексей Горшенев/Дорогая",
+  "Directory": "./test music/Алексей Горшенев/Дорогая",
   "FileSize": "9.6 MB",
   "FileModifyDate": "2026:04:06 11:31:08+00:00",
   "FileAccessDate": "2026:04:08 15:04:13+00:00",
@@ -1928,10 +1928,10 @@
   "Duration": "0:03:57 (approx)"
 },
 {
-  "SourceFile": "./tst/music/Sevak/Жди меня там/Жди меня там.mp3",
+  "SourceFile": "./test music/Sevak/Жди меня там/Жди меня там.mp3",
   "ExifToolVersion": 12.76,
   "FileName": "Жди меня там.mp3",
-  "Directory": "./tst/music/Sevak/Жди меня там",
+  "Directory": "./test music/Sevak/Жди меня там",
   "FileSize": "7.2 MB",
   "FileModifyDate": "2026:04:06 11:31:08+00:00",
   "FileAccessDate": "2026:04:08 15:04:13+00:00",
@@ -1965,10 +1965,10 @@
   "Duration": "0:02:59 (approx)"
 },
 {
-  "SourceFile": "./tst/music/Китай/Осень/Осень.mp3",
+  "SourceFile": "./test music/Китай/Осень/Осень.mp3",
   "ExifToolVersion": 12.76,
   "FileName": "Осень.mp3",
-  "Directory": "./tst/music/Китай/Осень",
+  "Directory": "./test music/Китай/Осень",
   "FileSize": "10 MB",
   "FileModifyDate": "2026:04:06 11:31:08+00:00",
   "FileAccessDate": "2026:04:08 15:04:13+00:00",
@@ -2002,10 +2002,10 @@
   "Duration": "0:04:18 (approx)"
 },
 {
-  "SourceFile": "./tst/music/JONYANNA ASTI/Как любовь твою понять/Как любовь твою понять_.mp3",
+  "SourceFile": "./test music/JONYANNA ASTI/Как любовь твою понять/Как любовь твою понять_.mp3",
   "ExifToolVersion": 12.76,
   "FileName": "Как любовь твою понять_.mp3",
-  "Directory": "./tst/music/JONYANNA ASTI/Как любовь твою понять",
+  "Directory": "./test music/JONYANNA ASTI/Как любовь твою понять",
   "FileSize": "9.9 MB",
   "FileModifyDate": "2026:04:06 11:31:08+00:00",
   "FileAccessDate": "2026:04:08 15:04:13+00:00",
@@ -2039,10 +2039,10 @@
   "Duration": "0:04:06 (approx)"
 },
 {
-  "SourceFile": "./tst/music/La-Mansh/Погляд/Погляд.mp3",
+  "SourceFile": "./test music/La-Mansh/Погляд/Погляд.mp3",
   "ExifToolVersion": 12.76,
   "FileName": "Погляд.mp3",
-  "Directory": "./tst/music/La-Mansh/Погляд",
+  "Directory": "./test music/La-Mansh/Погляд",
   "FileSize": "14 MB",
   "FileModifyDate": "2026:04:06 11:31:08+00:00",
   "FileAccessDate": "2026:04:08 15:04:13+00:00",

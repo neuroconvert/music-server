@@ -2,7 +2,7 @@ services:
   navidrome:
     image: deluan/navidrome:latest
     container_name: navidrome
-    user: 1000:1000 # Replace with your host UID:GID if different
+    user: 1000:1000
     restart: unless-stopped
     ports:
       - "4533:4533"
@@ -14,24 +14,15 @@ services:
       - ND_ENABLECOVERANIMATION=true
     volumes:
       - ./data:/data
-      - ./music:/music:ro # Read-only so Navidrome doesn't modify the processed files
+      - ./music:/music:ro
 
   music-processor:
-    image: python:3.11-slim
+    build: .
     container_name: music-processor
-    user: 1000:1000 # Keeps file permissions aligned with Navidrome and your host
     restart: unless-stopped
-    environment:
-      - PYTHONUNBUFFERED=1 # Ensures Python print logs appear immediately in Docker logs
-      - BEETSDIR=/config # Tells Beets where to find beets_config.yaml
     volumes:
       - ./config:/config
       - ./inbox:/inbox
-      - ./staging:/staging
       - ./music:/music
       - ./scripts:/scripts
       - ./logs:/logs
-    # Installs Beets and required plugin dependencies, then starts your script
-    command: >
-      sh -c "pip install --no-cache-dir beets discogs-client spotipy && 
-      python /scripts/organize_music.py"

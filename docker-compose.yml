@@ -1,0 +1,23 @@
+services:
+  navidrome:
+    image: deluan/navidrome:latest
+    container_name: navidrome
+    # It's highly recommended to run as your host OS user to avoid permission issues.
+    # Replace 1000:1000 with your Ubuntu user's UID and GID (run `id -u` and `id -g`).
+    user: 1000:1000
+    restart: unless-stopped
+    ports:
+      - "4533:4533"
+    environment:
+      # Navidrome Configuration Variables
+      - ND_LOGLEVEL=info
+      - ND_SCANSCHEDULE=1h
+      - ND_SESSIONTIMEOUT=24h
+      - ND_DEFAULTTHEME=Dark
+      - ND_ENABLECOVERANIMATION=true
+      # - ND_BASEURL=/navidrome # Uncomment if placing behind a reverse proxy sub-path
+    volumes:
+      # Local folder for Navidrome's SQLite database and cache
+      - ./data:/data
+      # Your actual music library path. The ':ro' flag ensures Navidrome only reads the files and cannot modify them.
+      - ./music:/music:ro

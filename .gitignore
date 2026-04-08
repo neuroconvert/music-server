@@ -1,0 +1,20 @@
+# Application Data and Caches
+data/
+
+# Media and Processing Folders
+inbox/
+staging/
+music/
+
+# Logs
+logs/
+
+# Beets Database and State (keep the config file, ignore the DBs)
+config/*.db
+config/*.db-shm
+config/*.db-wal
+config/*.pickle
+
+# OS generated files
+.DS_Store
+Thumbs.db

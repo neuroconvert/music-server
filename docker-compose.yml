@@ -2,22 +2,36 @@ services:
   navidrome:
     image: deluan/navidrome:latest
     container_name: navidrome
-    # It's highly recommended to run as your host OS user to avoid permission issues.
-    # Replace 1000:1000 with your Ubuntu user's UID and GID (run `id -u` and `id -g`).
-    user: 1000:1000
+    user: 1000:1000 # Replace with your host UID:GID if different
     restart: unless-stopped
     ports:
       - "4533:4533"
     environment:
-      # Navidrome Configuration Variables
       - ND_LOGLEVEL=info
       - ND_SCANSCHEDULE=1h
       - ND_SESSIONTIMEOUT=24h
       - ND_DEFAULTTHEME=Dark
       - ND_ENABLECOVERANIMATION=true
-      # - ND_BASEURL=/navidrome # Uncomment if placing behind a reverse proxy sub-path
     volumes:
-      # Local folder for Navidrome's SQLite database and cache
       - ./data:/data
-      # Your actual music library path. The ':ro' flag ensures Navidrome only reads the files and cannot modify them.
-      - ./music:/music:ro
+      - ./music:/music:ro # Read-only so Navidrome doesn't modify the processed files
+
+  music-processor:
+    image: python:3.11-slim
+    container_name: music-processor
+    user: 1000:1000 # Keeps file permissions aligned with Navidrome and your host
+    restart: unless-stopped
+    environment:
+      - PYTHONUNBUFFERED=1 # Ensures Python print logs appear immediately in Docker logs
+      - BEETSDIR=/config # Tells Beets where to find beets_config.yaml
+    volumes:
+      - ./config:/config
+      - ./inbox:/inbox
+      - ./staging:/staging
+      - ./music:/music
+      - ./scripts:/scripts
+      - ./logs:/logs
+    # Installs Beets and required plugin dependencies, then starts your script
+    command: >
+      sh -c "pip install --no-cache-dir beets discogs-client spotipy && 
+      python /scripts/organize_music.py"

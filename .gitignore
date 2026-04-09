@@ -1,4 +1,5 @@
 # Application Data and Caches
+.env
 data/
 
 # Media and Processing Folders

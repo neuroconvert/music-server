@@ -28,3 +28,20 @@ services:
       - ./scripts:/scripts
       - ./logs:/logs
       - ./test:/test
+      
+  music-uploader:
+    build: .
+    container_name: music-uploader
+    restart: unless-stopped
+    ports:
+      - "5000:5000"
+    environment:
+      - UPLOAD_USER=${UPLOAD_USER}
+      - UPLOAD_PASS=${UPLOAD_PASS}
+    volumes:
+      - ./inbox:/inbox
+      - ./upload_drafts:/upload_drafts
+      - ./scripts:/scripts
+      - ./logs:/logs
+    command: ["python", "/scripts/uploader.py"]
+    

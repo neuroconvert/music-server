@@ -1,10 +1,9 @@
 FROM python:3.11-slim
 
-# Install ffmpeg which is required by shazamio to analyze audio
 RUN apt-get update && apt-get install -y ffmpeg && rm -rf /var/lib/apt/lists/*
 
-# Install python requirements
-RUN pip install --no-cache-dir mutagen requests shazamio
+# Added flask and werkzeug here
+RUN pip install --no-cache-dir mutagen requests shazamio flask werkzeug
 
 ENV PYTHONUNBUFFERED=1
 

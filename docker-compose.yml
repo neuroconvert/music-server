@@ -23,6 +23,8 @@ services:
     volumes:
       - ./config:/config
       - ./inbox:/inbox
+      - ./staging:/staging
       - ./music:/music
       - ./scripts:/scripts
       - ./logs:/logs
+      - ./test:/test

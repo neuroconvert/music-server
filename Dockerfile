@@ -1,7 +1,10 @@
 FROM python:3.11-slim
 
-# Install the exact libraries we need for the custom Spotify tagger
-RUN pip install --no-cache-dir spotipy mutagen requests
+# Install ffmpeg which is required by shazamio to analyze audio
+RUN apt-get update && apt-get install -y ffmpeg && rm -rf /var/lib/apt/lists/*
+
+# Install python requirements
+RUN pip install --no-cache-dir mutagen requests shazamio
 
 ENV PYTHONUNBUFFERED=1
 

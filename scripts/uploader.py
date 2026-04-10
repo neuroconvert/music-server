@@ -21,9 +21,12 @@ PASSWORD = os.environ.get("UPLOAD_PASS", "password")
 SHAZAM_CACHE = {}
 
 VALID_GENRES = [
-    "Pop", "Rock", "Hip-Hop", "Rap", "R&B", "Electronic", "Dance", "House", "Trance", "Techno",
-    "Jazz", "Blues", "Classical", "Country", "Reggae", "Latin", "Metal", "Indie", "Alternative",
-    "Soundtrack", "K-Pop", "J-Pop", "Lo-Fi", "Acoustic", "Folk", "Punk", "Soul", "Ambient",
+    "Acoustic", "Afrobeat", "Alternative", "Ambient", "Anime", "Blues", "Children's Music", 
+    "Christian & Gospel", "Classical", "Comedy", "Country", "Dance", "Disco", "Electronic", 
+    "Enka", "Fitness & Workout", "Folk", "Hip-Hop", "Hip-Hop/Rap", "Honky Tonk", "House", 
+    "Indie", "Instrumental", "J-Pop", "Jazz", "K-Pop", "Karaoke", "Latin", "Lo-Fi", "Metal", 
+    "New Age", "Pop", "Punk", "R&B", "R&B/Soul", "Rap", "Reggae", "Rock", "Salsa", 
+    "Singer/Songwriter", "Ska", "Soul", "Soundtrack", "Spoken Word", "Techno", "Trance", "Vocal", "World",
     "Поп", "Рок", "Рэп", "Хип-хоп", "Шансон", "Электроника", "Танцевальная", "Классика", "Джаз",
     "Альтернатива", "Метал", "Инди", "Панк", "Фолк"
 ]
@@ -100,7 +103,7 @@ def allowed_file(filename):
     _, ext = os.path.splitext(filename)
     return ext.lower() in ALLOWED_EXTENSIONS
 
-# UI v6.12 (Expanded Wide Container)
+# UI v6.16 (Complete Ignorance of Non-Music Files)
 HTML_PAGE = """
 <!DOCTYPE html>
 <html lang="en">
@@ -112,7 +115,7 @@ HTML_PAGE = """
     <style>
         body { font-family: sans-serif; background: #121212; color: #ffffff; padding: 40px; text-align: center; }
         h1 { color: #bb86fc; }
-        .container { max-width: 96%; margin: 0 auto; } /* EXPANDED WIDTH HERE */
+        .container { max-width: 96%; margin: 0 auto; }
         .dropzone { background: #1e1e1e; border: 2px dashed #bb86fc; border-radius: 10px; padding: 60px 40px 40px 40px; margin-bottom: 10px; }
         .dz-message { font-size: 1.2em; color: #a1a1a1; }
         .dropzone .dz-preview .dz-success-mark svg, .dropzone .dz-preview .dz-error-mark svg { fill: #bb86fc; }
@@ -197,7 +200,16 @@ HTML_PAGE = """
     </div>
     
     <script>
-        const VALID_GENRES = ["Pop", "Rock", "Hip-Hop", "Rap", "R&B", "Electronic", "Dance", "House", "Trance", "Techno", "Jazz", "Blues", "Classical", "Country", "Reggae", "Latin", "Metal", "Indie", "Alternative", "Soundtrack", "K-Pop", "J-Pop", "Lo-Fi", "Acoustic", "Folk", "Punk", "Soul", "Ambient", "Поп", "Рок", "Рэп", "Хип-хоп", "Шансон", "Электроника", "Танцевальная", "Классика", "Джаз", "Альтернатива", "Метал", "Инди", "Панк", "Фолк"];
+        const VALID_GENRES = [
+            "Acoustic", "Afrobeat", "Alternative", "Ambient", "Anime", "Blues", "Children's Music", 
+            "Christian & Gospel", "Classical", "Comedy", "Country", "Dance", "Disco", "Electronic", 
+            "Enka", "Fitness & Workout", "Folk", "Hip-Hop", "Hip-Hop/Rap", "Honky Tonk", "House", 
+            "Indie", "Instrumental", "J-Pop", "Jazz", "K-Pop", "Karaoke", "Latin", "Lo-Fi", "Metal", 
+            "New Age", "Pop", "Punk", "R&B", "R&B/Soul", "Rap", "Reggae", "Rock", "Salsa", 
+            "Singer/Songwriter", "Ska", "Soul", "Soundtrack", "Spoken Word", "Techno", "Trance", "Vocal", "World",
+            "Поп", "Рок", "Рэп", "Хип-хоп", "Шансон", "Электроника", "Танцевальная", "Классика", "Джаз",
+            "Альтернатива", "Метал", "Инди", "Панк", "Фолк"
+        ];
         
         window.DraftFiles = {};
         window.QueueFiles = {};
@@ -210,16 +222,43 @@ HTML_PAGE = """
             acceptedFiles: ".mp3,.flac,.m4a,.ogg,.wav", maxFilesize: 200, parallelUploads: 5,
             dictDefaultMessage: "Drag & Drop audio files here to upload", addRemoveLinks: true, dictRemoveFile: "❌ Remove",
             init: function() {
-                this.on("success", function(file) { setTimeout(() => { this.removeFile(file); }, 2000); fetchData(); });
+                // INSTANTLY filter and remove non-music files exactly when they are dragged in
+                this.on("addedfile", function(file) {
+                    var ext = file.name.split('.').pop().toLowerCase();
+                    if (!['mp3', 'flac', 'm4a', 'ogg', 'wav'].includes(ext)) {
+                        this.removeFile(file);
+                    }
+                });
+
+                this.on("success", function(file) { 
+                    this.removeFile(file); 
+                    fetchData(); 
+                });
+                
                 this.on("error", function(file, response) {
+                    // Fallback for valid extensions that still hit a server error
+                    if(response === "You can't upload files of this type." || String(response).includes("Invalid format")) {
+                        this.removeFile(file);
+                        return;
+                    }
+                    
                     var msg = typeof response === "string" ? response : response.error;
                     file.previewElement.classList.add("dz-error");
                     let ref = file.previewElement.querySelectorAll("[data-dz-errormessage]");
                     for (let i = 0; i < ref.length; i++) { ref[i].textContent = msg; }
                     document.getElementById('btn-clear-dz').style.display = 'inline-block';
                 });
+                
                 this.on("removedfile", function(file) {
                     if (this.getFilesWithStatus(Dropzone.ERROR).length === 0) document.getElementById('btn-clear-dz').style.display = 'none';
+                });
+                
+                this.on("queuecomplete", function() {
+                    const dz = this;
+                    setTimeout(() => {
+                        const successFiles = dz.getFilesWithStatus(Dropzone.SUCCESS);
+                        successFiles.forEach(f => dz.removeFile(f));
+                    }, 500);
                 });
             }
         };

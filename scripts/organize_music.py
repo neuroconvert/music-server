@@ -6,6 +6,7 @@ import logging
 import requests
 import re
 import asyncio
+import mutagen
 from shazamio import Shazam
 from mutagen.mp3 import MP3
 from mutagen.id3 import ID3, TIT2, TPE1, TALB, TDRC, TCON, APIC, error
@@ -16,7 +17,7 @@ STAGING = "/staging"
 MUSIC = "/music"
 ASIS_DIR = os.path.join(MUSIC, "Recommended_AsIs")
 LOG_DIR = "/logs"
-COPY_DELAY = 300  # 5 minutes network copy delay
+COPY_DELAY = 60  # 1 minute network copy delay
 AUDIO_EXT = {'.mp3', '.flac', '.m4a', '.ogg', '.wav'}
 
 def setup_logger(name, log_file):
@@ -36,7 +37,8 @@ sys_log = setup_logger('system', 'system.log')
 process_log = setup_logger('processor', 'processing.log')
 
 def clean_filename(name):
-    return re.sub(r'[\\\\/*?:"<>|]', "", str(name))
+    # Fixed escape characters for Windows/Linux safe filenames
+    return re.sub(r'[\\/*?:"<>|]', "", str(name))
 
 def get_audio_files(directory):
     return [os.path.join(root, f) for root, _, files in os.walk(directory) 
@@ -72,23 +74,52 @@ async def process_pipeline():
                 
                 asis_artist = "Unknown Artist"
                 asis_album = "Unknown Album"
+                asis_title = ""
                 
+                # Extract tags (including Title) using both MP3 and mutagen fallback for other formats
                 if ext.lower() == '.mp3':
                     try:
                         audio = MP3(file_path, ID3=ID3)
                         if 'TPE1' in audio.tags: asis_artist = str(audio.tags['TPE1'])
                         if 'TALB' in audio.tags: asis_album = str(audio.tags['TALB'])
+                        if 'TIT2' in audio.tags: asis_title = str(audio.tags['TIT2'])
+                    except Exception: pass
+                else:
+                    try:
+                        audio = mutagen.File(file_path, easy=True)
+                        if audio:
+                            if 'artist' in audio: asis_artist = str(audio['artist'][0])
+                            if 'album' in audio: asis_album = str(audio['album'][0])
+                            if 'title' in audio: asis_title = str(audio['title'][0])
                     except Exception: pass
                 
                 asis_target_dir = os.path.join(ASIS_DIR, clean_filename(asis_artist), clean_filename(asis_album))
                 os.makedirs(asis_target_dir, exist_ok=True)
-                dest_path = os.path.join(asis_target_dir, filename)
                 
-                # --- STRICT DUPLICATE DELETION FOR AS-IS ---
+                # 1. Determine the new filename (Title or Timestamp)
+                if asis_title.strip():
+                    new_filename = f"{clean_filename(asis_title)}{ext}"
+                else:
+                    new_filename = f"{int(time.time())}{ext}"
+                    
+                dest_path = os.path.join(asis_target_dir, new_filename)
+                
+                # 2. Smart Size-Based Duplicate Check
                 if os.path.exists(dest_path):
-                    process_log.info(f"Duplicate found in As-Is: '{filename}'. Deleting duplicate.")
-                    os.remove(file_path)
-                    continue
+                    src_size = os.path.getsize(file_path)
+                    dest_size = os.path.getsize(dest_path)
+                    
+                    if src_size == dest_size:
+                        # Sizes match exactly -> It's the same song -> Delete duplicate
+                        process_log.info(f"Exact duplicate found in As-Is (Same Name & Size): '{new_filename}'. Deleting duplicate.")
+                        os.remove(file_path)
+                        continue
+                    else:
+                        # Different sizes -> Different songs sharing the same name -> Append timestamp
+                        name_no_ext, extension = os.path.splitext(new_filename)
+                        new_filename = f"{name_no_ext}_{int(time.time())}{extension}"
+                        dest_path = os.path.join(asis_target_dir, new_filename)
+                        process_log.info(f"Name collision in As-Is (Different Size). Saving as '{new_filename}'.")
                     
                 shutil.move(file_path, dest_path)
                 process_log.info(f"Moved to As-Is: {dest_path}")
